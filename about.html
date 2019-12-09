@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
+    <title>Cucina Siciliana | About</title>
+    <meta name="description" content="Come and join us for authentic Sicilian food and music at our next event!">
+    <meta name="keywords" content="Italian events, Italian food and music, Pasta, Sicilian food, Sicilian events">
+    <meta charset="UTF-8">
+    <meta name="author" content="Paul Newman">
+    <!-- [if lt IE 9]
+            <script src="http://html5shim.googlcode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <!-- Internet/Web Development Level 1, 23163, Lesson 11 -->
+    <header>
+        <h1>Cucina Siciliana</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html ">Menu</a>
+            <a href="events.html ">Events</a>
+            <a href="about.html">About</a>
+            <a href="accessibility.html">Accessibility</a>
+        </nav>
+    </header>
+    <main>
+        <p>Paul Newman has been working in the restaurant industry for over 20 years. He has started as a cook at a diner and worked his way up to General Manager in only 8 years. He has been cooking recipes for others for over two decades until 2017 he
+            decided to share his family’s recipes with the world.</p>
+        <h2>Contact the Chef</h2>
+        <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+            <h3>Contact Details</h3>
+            <label>First Name: <input type="text" name="FirstName"></label><br>
+            <label>Last Name: <input type="text" name="LastName"></label><br>
+            <label>Email Address: <input type="email" name="UserEmail"></label>
+            <h3>Comments</h3>
+            <label>Please enter your comments and feedback below:<br><textarea rows="4" cols="50" name="comments"></textarea></label>
+            <h3>Category</h3>
+            <label>Please select the category that best describes your feedback:<br><input type="radio" name="category1" value="complaint"> Complaint</label><br>
+            <label><input type="radio" name="category2" value="feedback"> Feedback</label><br>
+            <label><input type="radio" name="category3" value="inquiry"> Inquiry</label><br>
+            <label><input type="radio" name="category4" value="suggestion"> Suggestion</label>
+            <h3>Sign up for our Newsletter</h3>
+            <p style="text-align:left">Would you like to sign up for our monthly newsletter and recieve exclusive coupons as well as menu updates?</p>
+            <label><input type="checkbox" name="newsletter" value="yes"> Yes, I would like to sign up for the newsletter!</label><br>
+            <input type="button" onclick="myAlert()" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p><span>Catering:</span> (480)555-2288<br>
+            <span>Orders:</span> (480)555-2289</p>
+        <!-- I used the </b> tag to bold the text as it is specifically for bolding and wont add any empasis to it -->
+        <!-- I changed the <b> tag to css inline style for bold -->
+        <!-- The difference between external and internal links are that internal lead to other pages in the root file such as index.html, menu.html and events.html where as external lead to other websites. I used external links below -->
+        <p>Pau2212287@maricopa.edu<br>
+            <a href="https://www.facebook.com/GilbertFeastival/ "><img src="images/facebook.jpg " alt="facebook " width="25" height="25"></a>
+            <a href="http://www.twitter.com "><img src="images/twitter.jpg " alt="twitter " width="25" height="25"></a>
+            <a href="https://www.instagram.com/ "><img src="images/instagram.jpg " alt="instagram " width="25" height="25"></a>
+            <p><small>Copyright &copy;2019 by <mark>Paul Newman</mark></small></p>
+            <p id="lastMod"></p>
+            <script src="myjava.js"></script>
+    </footer>
+</body>
+
+</html>
